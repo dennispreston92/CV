@@ -1,0 +1,22 @@
+development:
+  host: localhost
+  adapter: postgresql
+  database: cv
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: secret
+test:
+  host: localhost
+  adapter: postgresql
+  database: cv
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: secret
+
+production:
+  adapter: postgresql
+  database: cv
+  pool: 5
+  timeout: 5000
